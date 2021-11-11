@@ -1,0 +1,11 @@
+<testsuite name="co.com.jsierra.gatling.UsersSimulation" tests="3" errors="0" failures="3" time="0">
+<testcase name="GET /users: mean of response time is less than or equal to 200.0" status="false" time="0">
+  <failure type="GET /users">Actual value: 594.0</failure>
+</testcase>
+<testcase name="GET /users: 75th percentile of response time is less than or equal to 300.0" status="false" time="0">
+  <failure type="GET /users">Actual value: 661.0</failure>
+</testcase>
+<testcase name="GET /users: 95th percentile of response time is less than or equal to 200.0" status="false" time="0">
+  <failure type="GET /users">Actual value: 1171.0</failure>
+</testcase>
+</testsuite>
